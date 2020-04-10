@@ -1,7 +1,7 @@
 require('dotenv').config()
 const WebSocket = require('ws');
-const CryptoJS = require('crypto-js')
 const crypto = require('crypto')
+
 class Framer {
   validMessageTypes = [
     'request',
